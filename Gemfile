@@ -3,10 +3,10 @@ source 'https://rubygems.org'
 gemspec
 
 # Add i18n support.
-gem 'refinerycms-i18n', '~> 2.1.0.dev', :git => 'git://github.com/refinery/refinerycms-i18n.git'
+gem 'refinerycms-i18n', '~> 2.1.0.dev', :git => 'https://github.com/refinery/refinerycms-i18n.git'
 
 # Add support for refinerycms-acts-as-indexed
-gem 'refinerycms-acts-as-indexed', :git => 'git://github.com/refinery/refinerycms-acts-as-indexed.git'
+gem 'refinerycms-acts-as-indexed', :git => 'https://github.com/refinery/refinerycms-acts-as-indexed.git'
 
 gem 'quiet_assets', :group => :development
 
